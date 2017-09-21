@@ -1,0 +1,8 @@
+chr - 1 Cluster1 0 148 black
+chr - 2 Cluster2 0 274 black
+chr - 3 Cluster3 0 227 black
+chr - 4 Cluster4 0 278 black
+chr - 5 Cluster5 0 291 black
+chr - 6 Cluster6 0 60 black
+chr - 7 Cluster7 0 280 black
+chr - 8 Cluster8 0 308 black

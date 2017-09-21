@@ -1,0 +1,7 @@
+TRANSCRIPT	blat-v91_cns_gcoords_curs_ph_ctg_p_ctg	4
+TRANSCRIPT	gmap-v91_cns_gcoords_curs_ph_ctg_p_ctg	4
+TRANSCRIPT	assembler-v91_cns_gcoords_curs_ph_ctg_p_ctg	8
+ABINITIO_PREDICTION	Augustus	6
+ABINITIO_PREDICTION	GeneMark.hmm	2
+ABINITIO_PREDICTION	CodingQuarry_v2	6
+

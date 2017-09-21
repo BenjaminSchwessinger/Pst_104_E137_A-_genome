@@ -1,0 +1,141 @@
+GS_DG_S12412_ATCACG_L001_R1_001.paired.fq.gz
+GS_DG_S12412_ATCACG_L001_R2_001.paired.fq.gz
+GS_DG_S18112_CGATGT_L001_R1_001.paired.fq.gz
+GS_DG_S18112_CGATGT_L001_R2_001.paired.fq.gz
+GS_DG_S22312_TTAGGC_L001_R1_001.paired.fq.gz
+GS_DG_S22312_TTAGGC_L001_R2_001.paired.fq.gz
+HE_DG_H17412_TGACCA_L001_R1_001.paired.fq.gz
+HE_DG_H17412_TGACCA_L001_R2_001.paired.fq.gz
+HE_DG_H1_ACTTGA_L001_R1_001.paired.fq.gz
+HE_DG_H1_ACTTGA_L001_R2_001.paired.fq.gz
+HE_DG_H2_GATCAG_L001_R1_001.paired.fq.gz
+HE_DG_H2_GATCAG_L001_R2_001.paired.fq.gz
+IT0_DG_4_GTGAAA_L001_R1_001.paired.fq.gz
+IT0_DG_4_GTGAAA_L001_R2_001.paired.fq.gz
+IT0_DG_5_ATCACG_L001_R1_001.paired.fq.gz
+IT0_DG_5_ATCACG_L001_R2_001.paired.fq.gz
+IT0_DG_6_ACTTGA_L001_R1_001.paired.fq.gz
+IT0_DG_6_ACTTGA_L001_R2_001.paired.fq.gz
+IT6_DG_7_TAGCTT_L001_R1_001.paired.fq.gz
+IT6_DG_7_TAGCTT_L001_R2_001.paired.fq.gz
+IT6_DG_8_GGCTAC_L001_R1_001.paired.fq.gz
+IT6_DG_8_GGCTAC_L001_R2_001.paired.fq.gz
+IT6_DG_9_TTAGGC_L001_R1_001.paired.fq.gz
+IT6_DG_9_TTAGGC_L001_R2_001.paired.fq.gz
+IT9_DG1_CGATGT_L003_R1_001.paired.fq.gz
+IT9_DG1_CGATGT_L003_R2_001.paired.fq.gz
+IT9_DG2_TGACCA_L003_R1_001.paired.fq.gz
+IT9_DG2_TGACCA_L003_R2_001.paired.fq.gz
+IT9_DG_10_GATCAG_L001_R1_001.paired.fq.gz
+IT9_DG_10_GATCAG_L001_R2_001.paired.fq.gz
+Pst_104E_v12_p_ctg.anno.gff3
+UG_DG_1_ACAGTG_L001_R1_001.paired.fq.gz
+UG_DG_1_ACAGTG_L001_R2_001.paired.fq.gz
+UG_DG_2_GCCAAT_L001_R1_001.paired.fq.gz
+UG_DG_2_GCCAAT_L001_R2_001.paired.fq.gz
+UG_DG_3_CTTGTA_L001_R1_001.paired.fq.gz
+UG_DG_3_CTTGTA_L001_R2_001.paired.fq.gz
+genome
+May 25 17:34:32 ..... started STAR run
+May 25 17:34:32 ..... loading genome
+May 25 17:34:34 ..... started mapping
+May 25 18:19:59 ..... started sorting BAM
+May 25 18:25:26 ..... finished successfully
+May 25 18:29:10 ..... started STAR run
+May 25 18:29:10 ..... loading genome
+May 25 18:29:12 ..... started mapping
+May 25 19:23:22 ..... started sorting BAM
+May 25 19:28:55 ..... finished successfully
+May 25 19:32:53 ..... started STAR run
+May 25 19:32:53 ..... loading genome
+May 25 19:32:54 ..... started mapping
+May 25 20:17:48 ..... started sorting BAM
+May 25 20:25:45 ..... finished successfully
+May 25 20:29:56 ..... started STAR run
+May 25 20:29:56 ..... loading genome
+May 25 20:29:57 ..... started mapping
+May 25 22:16:51 ..... started sorting BAM
+May 25 22:17:44 ..... finished successfully
+May 25 22:18:35 ..... started STAR run
+May 25 22:18:35 ..... loading genome
+May 25 22:18:36 ..... started mapping
+May 25 23:38:29 ..... started sorting BAM
+May 25 23:40:42 ..... finished successfully
+May 25 23:42:24 ..... started STAR run
+May 25 23:42:24 ..... loading genome
+May 25 23:42:26 ..... started mapping
+May 26 00:44:45 ..... started sorting BAM
+May 26 00:45:36 ..... finished successfully
+May 26 00:46:25 ..... started STAR run
+May 26 00:46:25 ..... loading genome
+May 26 00:46:26 ..... started mapping
+May 26 03:34:49 ..... started sorting BAM
+May 26 03:34:49 ..... finished successfully
+May 26 03:34:50 ..... started STAR run
+May 26 03:34:50 ..... loading genome
+May 26 03:34:52 ..... started mapping
+May 26 06:45:46 ..... started sorting BAM
+May 26 06:45:47 ..... finished successfully
+May 26 06:45:48 ..... started STAR run
+May 26 06:45:48 ..... loading genome
+May 26 06:45:49 ..... started mapping
+May 26 10:01:14 ..... started sorting BAM
+May 26 10:01:15 ..... finished successfully
+May 26 10:01:16 ..... started STAR run
+May 26 10:01:16 ..... loading genome
+May 26 10:01:17 ..... started mapping
+May 26 13:12:14 ..... started sorting BAM
+May 26 13:12:28 ..... finished successfully
+May 26 13:12:47 ..... started STAR run
+May 26 13:12:48 ..... loading genome
+May 26 13:12:49 ..... started mapping
+May 26 16:30:49 ..... started sorting BAM
+May 26 16:31:07 ..... finished successfully
+May 26 16:31:33 ..... started STAR run
+May 26 16:31:33 ..... loading genome
+May 26 16:31:35 ..... started mapping
+May 26 19:39:49 ..... started sorting BAM
+May 26 19:40:02 ..... finished successfully
+May 26 19:40:21 ..... started STAR run
+May 26 19:40:21 ..... loading genome
+May 26 19:40:22 ..... started mapping
+May 27 04:19:28 ..... started sorting BAM
+May 27 04:29:12 ..... finished successfully
+May 27 04:33:47 ..... started STAR run
+May 27 04:33:47 ..... loading genome
+May 27 04:33:48 ..... started mapping
+May 27 11:01:26 ..... started sorting BAM
+May 27 11:02:47 ..... finished successfully
+May 27 11:04:54 ..... started STAR run
+May 27 11:04:54 ..... loading genome
+May 27 11:04:55 ..... started mapping
+May 27 12:14:54 ..... started sorting BAM
+May 27 12:15:35 ..... finished successfully
+May 27 12:16:49 ..... started STAR run
+May 27 12:16:49 ..... loading genome
+May 27 12:16:51 ..... started mapping
+May 27 12:27:45 ..... started sorting BAM
+May 27 12:29:02 ..... finished successfully
+May 27 12:30:46 ..... started STAR run
+May 27 12:30:46 ..... loading genome
+May 27 12:30:47 ..... started mapping
+May 27 12:41:34 ..... started sorting BAM
+May 27 12:42:45 ..... finished successfully
+May 27 12:44:18 ..... started STAR run
+May 27 12:44:18 ..... loading genome
+May 27 12:44:19 ..... started mapping
+May 27 12:55:28 ..... started sorting BAM
+May 27 12:56:43 ..... finished successfully
+
+======================================================================================
+                  Resource Usage on 2017-05-27 13:32:43:
+   Job Id:             5085402.r-man2
+   Project:            xf3
+   Exit Status:        0
+   Service Units:      705.62
+   NCPUs Requested:    16                     NCPUs Used: 16              
+                                           CPU Time Used: 652:03:11                                  
+   Memory Requested:   88.0GB                Memory Used: 5.68GB          
+   Walltime requested: 48:00:00            Walltime Used: 44:06:04        
+   JobFS requested:    420.0GB                JobFS used: 111.82GB        
+======================================================================================

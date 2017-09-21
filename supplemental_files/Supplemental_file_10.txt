@@ -1,0 +1,12 @@
+#FALCOn-Unzip 1.7.4 was run with the following setup
+input_fofn= input.fofn
+input_bam_fofn= input_bam.fofn
+smrt_bin=/home/smrtanalysis/smrtlink_310/smrtcmds/bin/
+jobqueue= hugemem.q
+sge_phasing= -pe threads 24 -l virtual_free=40G,h_vmem=41G -q %(jobqueue)s
+sge_quiver= -pe threads 24 -l virtual_free=40G,h_vmem=41G -q %(jobqueue)s
+sge_track_reads= -pe threads 24 -l virtual_free=40G,h_vmem=41G -q %(jobqueue)s
+sge_blasr_aln=  -pe threads 24 -l virtual_free=40G,h_vmem=41G -q %(jobqueue)s
+sge_hasm=  -pe threads 48 -l virtual_free=19G,h_vmem=20G -q %(jobqueue)s
+unzip_concurrent_jobs= 32
+quiver_concurrent_jobs= 32

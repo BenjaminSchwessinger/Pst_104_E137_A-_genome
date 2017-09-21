@@ -1,0 +1,349 @@
++ mkdir /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/TSRM/Pst_104E_v12_p_ctg
++ cd /jobfs/local/5085402.r-man2
++ mkdir genome
++ cp /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg.anno.gff3 .
++ cp /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg/Genome /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg/SA /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg/SAindex /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg/chrLength.txt /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg/chrName.txt /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg/chrNameLength.txt /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg/chrStart.txt /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg/exonGeTrInfo.tab /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg/exonInfo.tab /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg/geneInfo.tab /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg/genomeParameters.txt /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg/sjdbInfo.txt /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg/sjdbList.fromGTF.out.tab /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg/sjdbList.out.tab /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/STAR_genome/Pst_104E_v12_p_ctg/transcriptInfo.tab /jobfs/local/5085402.r-man2/genome/
++ cp /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//GS_DG_S12412_ATCACG_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//GS_DG_S12412_ATCACG_L001_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//GS_DG_S18112_CGATGT_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//GS_DG_S18112_CGATGT_L001_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//GS_DG_S22312_TTAGGC_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//GS_DG_S22312_TTAGGC_L001_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//HE_DG_H17412_TGACCA_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//HE_DG_H17412_TGACCA_L001_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//HE_DG_H1_ACTTGA_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//HE_DG_H1_ACTTGA_L001_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//HE_DG_H2_GATCAG_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//HE_DG_H2_GATCAG_L001_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT0_DG_4_GTGAAA_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT0_DG_4_GTGAAA_L001_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT0_DG_5_ATCACG_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT0_DG_5_ATCACG_L001_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT0_DG_6_ACTTGA_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT0_DG_6_ACTTGA_L001_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT6_DG_7_TAGCTT_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT6_DG_7_TAGCTT_L001_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT6_DG_8_GGCTAC_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT6_DG_8_GGCTAC_L001_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT6_DG_9_TTAGGC_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT6_DG_9_TTAGGC_L001_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT9_DG1_CGATGT_L003_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT9_DG1_CGATGT_L003_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT9_DG2_TGACCA_L003_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT9_DG2_TGACCA_L003_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT9_DG_10_GATCAG_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//IT9_DG_10_GATCAG_L001_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//UG_DG_1_ACAGTG_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//UG_DG_1_ACAGTG_L001_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//UG_DG_2_GCCAAT_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//UG_DG_2_GCCAAT_L001_R2_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//UG_DG_3_CTTGTA_L001_R1_001.paired.fq.gz /short/xf3/bxs800/genome_assembly/data/trimmed_reads/Illumina_PST79/RNA/inhouse//UG_DG_3_CTTGTA_L001_R2_001.paired.fq.gz ./
++ wait
++ ls
++ paired_1=(*_R1_*.paired.*.gz)
++ paired_2=(*_R2_*.paired.*.gz)
++ (( i=0 ))
++ (( i<=18-1 ))
++ len=44
++ outfolder=GS_DG_S12412_ATCACG_L001_R1_001
++ mkdir GS_DG_S12412_ATCACG_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn GS_DG_S12412_ATCACG_L001_R1_001.paired.fq.gz GS_DG_S12412_ATCACG_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix GS_DG_S12412_ATCACG_L001_R1_001/GS_DG_S12412_ATCACG_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd GS_DG_S12412_ATCACG_L001_R1_001
++ for bam in '*.bam'
+++ echo GS_DG_S12412_ATCACG_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=GS_DG_S12412_ATCACG_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l GS_DG_S12412_ATCACG_L001_R1_001Aligned -o GS_DG_S12412_ATCACG_L001_R1_001Aligned.stringtie.gtf GS_DG_S12412_ATCACG_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=44
++ outfolder=GS_DG_S18112_CGATGT_L001_R1_001
++ mkdir GS_DG_S18112_CGATGT_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn GS_DG_S18112_CGATGT_L001_R1_001.paired.fq.gz GS_DG_S18112_CGATGT_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix GS_DG_S18112_CGATGT_L001_R1_001/GS_DG_S18112_CGATGT_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd GS_DG_S18112_CGATGT_L001_R1_001
++ for bam in '*.bam'
+++ echo GS_DG_S18112_CGATGT_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=GS_DG_S18112_CGATGT_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l GS_DG_S18112_CGATGT_L001_R1_001Aligned -o GS_DG_S18112_CGATGT_L001_R1_001Aligned.stringtie.gtf GS_DG_S18112_CGATGT_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=44
++ outfolder=GS_DG_S22312_TTAGGC_L001_R1_001
++ mkdir GS_DG_S22312_TTAGGC_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn GS_DG_S22312_TTAGGC_L001_R1_001.paired.fq.gz GS_DG_S22312_TTAGGC_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix GS_DG_S22312_TTAGGC_L001_R1_001/GS_DG_S22312_TTAGGC_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd GS_DG_S22312_TTAGGC_L001_R1_001
++ for bam in '*.bam'
+++ echo GS_DG_S22312_TTAGGC_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=GS_DG_S22312_TTAGGC_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l GS_DG_S22312_TTAGGC_L001_R1_001Aligned -o GS_DG_S22312_TTAGGC_L001_R1_001Aligned.stringtie.gtf GS_DG_S22312_TTAGGC_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=44
++ outfolder=HE_DG_H17412_TGACCA_L001_R1_001
++ mkdir HE_DG_H17412_TGACCA_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn HE_DG_H17412_TGACCA_L001_R1_001.paired.fq.gz HE_DG_H17412_TGACCA_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix HE_DG_H17412_TGACCA_L001_R1_001/HE_DG_H17412_TGACCA_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd HE_DG_H17412_TGACCA_L001_R1_001
++ for bam in '*.bam'
+++ echo HE_DG_H17412_TGACCA_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=HE_DG_H17412_TGACCA_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l HE_DG_H17412_TGACCA_L001_R1_001Aligned -o HE_DG_H17412_TGACCA_L001_R1_001Aligned.stringtie.gtf HE_DG_H17412_TGACCA_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=40
++ outfolder=HE_DG_H1_ACTTGA_L001_R1_001
++ mkdir HE_DG_H1_ACTTGA_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn HE_DG_H1_ACTTGA_L001_R1_001.paired.fq.gz HE_DG_H1_ACTTGA_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix HE_DG_H1_ACTTGA_L001_R1_001/HE_DG_H1_ACTTGA_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd HE_DG_H1_ACTTGA_L001_R1_001
++ for bam in '*.bam'
+++ echo HE_DG_H1_ACTTGA_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=HE_DG_H1_ACTTGA_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l HE_DG_H1_ACTTGA_L001_R1_001Aligned -o HE_DG_H1_ACTTGA_L001_R1_001Aligned.stringtie.gtf HE_DG_H1_ACTTGA_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=40
++ outfolder=HE_DG_H2_GATCAG_L001_R1_001
++ mkdir HE_DG_H2_GATCAG_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn HE_DG_H2_GATCAG_L001_R1_001.paired.fq.gz HE_DG_H2_GATCAG_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix HE_DG_H2_GATCAG_L001_R1_001/HE_DG_H2_GATCAG_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd HE_DG_H2_GATCAG_L001_R1_001
++ for bam in '*.bam'
+++ echo HE_DG_H2_GATCAG_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=HE_DG_H2_GATCAG_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l HE_DG_H2_GATCAG_L001_R1_001Aligned -o HE_DG_H2_GATCAG_L001_R1_001Aligned.stringtie.gtf HE_DG_H2_GATCAG_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=40
++ outfolder=IT0_DG_4_GTGAAA_L001_R1_001
++ mkdir IT0_DG_4_GTGAAA_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn IT0_DG_4_GTGAAA_L001_R1_001.paired.fq.gz IT0_DG_4_GTGAAA_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix IT0_DG_4_GTGAAA_L001_R1_001/IT0_DG_4_GTGAAA_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd IT0_DG_4_GTGAAA_L001_R1_001
++ for bam in '*.bam'
+++ echo IT0_DG_4_GTGAAA_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=IT0_DG_4_GTGAAA_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l IT0_DG_4_GTGAAA_L001_R1_001Aligned -o IT0_DG_4_GTGAAA_L001_R1_001Aligned.stringtie.gtf IT0_DG_4_GTGAAA_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=40
++ outfolder=IT0_DG_5_ATCACG_L001_R1_001
++ mkdir IT0_DG_5_ATCACG_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn IT0_DG_5_ATCACG_L001_R1_001.paired.fq.gz IT0_DG_5_ATCACG_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix IT0_DG_5_ATCACG_L001_R1_001/IT0_DG_5_ATCACG_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd IT0_DG_5_ATCACG_L001_R1_001
++ for bam in '*.bam'
+++ echo IT0_DG_5_ATCACG_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=IT0_DG_5_ATCACG_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l IT0_DG_5_ATCACG_L001_R1_001Aligned -o IT0_DG_5_ATCACG_L001_R1_001Aligned.stringtie.gtf IT0_DG_5_ATCACG_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=40
++ outfolder=IT0_DG_6_ACTTGA_L001_R1_001
++ mkdir IT0_DG_6_ACTTGA_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn IT0_DG_6_ACTTGA_L001_R1_001.paired.fq.gz IT0_DG_6_ACTTGA_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix IT0_DG_6_ACTTGA_L001_R1_001/IT0_DG_6_ACTTGA_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd IT0_DG_6_ACTTGA_L001_R1_001
++ for bam in '*.bam'
+++ echo IT0_DG_6_ACTTGA_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=IT0_DG_6_ACTTGA_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l IT0_DG_6_ACTTGA_L001_R1_001Aligned -o IT0_DG_6_ACTTGA_L001_R1_001Aligned.stringtie.gtf IT0_DG_6_ACTTGA_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=40
++ outfolder=IT6_DG_7_TAGCTT_L001_R1_001
++ mkdir IT6_DG_7_TAGCTT_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn IT6_DG_7_TAGCTT_L001_R1_001.paired.fq.gz IT6_DG_7_TAGCTT_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix IT6_DG_7_TAGCTT_L001_R1_001/IT6_DG_7_TAGCTT_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd IT6_DG_7_TAGCTT_L001_R1_001
++ for bam in '*.bam'
+++ echo IT6_DG_7_TAGCTT_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=IT6_DG_7_TAGCTT_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l IT6_DG_7_TAGCTT_L001_R1_001Aligned -o IT6_DG_7_TAGCTT_L001_R1_001Aligned.stringtie.gtf IT6_DG_7_TAGCTT_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=40
++ outfolder=IT6_DG_8_GGCTAC_L001_R1_001
++ mkdir IT6_DG_8_GGCTAC_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn IT6_DG_8_GGCTAC_L001_R1_001.paired.fq.gz IT6_DG_8_GGCTAC_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix IT6_DG_8_GGCTAC_L001_R1_001/IT6_DG_8_GGCTAC_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd IT6_DG_8_GGCTAC_L001_R1_001
++ for bam in '*.bam'
+++ echo IT6_DG_8_GGCTAC_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=IT6_DG_8_GGCTAC_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l IT6_DG_8_GGCTAC_L001_R1_001Aligned -o IT6_DG_8_GGCTAC_L001_R1_001Aligned.stringtie.gtf IT6_DG_8_GGCTAC_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=40
++ outfolder=IT6_DG_9_TTAGGC_L001_R1_001
++ mkdir IT6_DG_9_TTAGGC_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn IT6_DG_9_TTAGGC_L001_R1_001.paired.fq.gz IT6_DG_9_TTAGGC_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix IT6_DG_9_TTAGGC_L001_R1_001/IT6_DG_9_TTAGGC_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd IT6_DG_9_TTAGGC_L001_R1_001
++ for bam in '*.bam'
+++ echo IT6_DG_9_TTAGGC_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=IT6_DG_9_TTAGGC_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l IT6_DG_9_TTAGGC_L001_R1_001Aligned -o IT6_DG_9_TTAGGC_L001_R1_001Aligned.stringtie.gtf IT6_DG_9_TTAGGC_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=39
++ outfolder=IT9_DG1_CGATGT_L003_R1_001
++ mkdir IT9_DG1_CGATGT_L003_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn IT9_DG1_CGATGT_L003_R1_001.paired.fq.gz IT9_DG1_CGATGT_L003_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix IT9_DG1_CGATGT_L003_R1_001/IT9_DG1_CGATGT_L003_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd IT9_DG1_CGATGT_L003_R1_001
++ for bam in '*.bam'
+++ echo IT9_DG1_CGATGT_L003_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=IT9_DG1_CGATGT_L003_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l IT9_DG1_CGATGT_L003_R1_001Aligned -o IT9_DG1_CGATGT_L003_R1_001Aligned.stringtie.gtf IT9_DG1_CGATGT_L003_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=39
++ outfolder=IT9_DG2_TGACCA_L003_R1_001
++ mkdir IT9_DG2_TGACCA_L003_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn IT9_DG2_TGACCA_L003_R1_001.paired.fq.gz IT9_DG2_TGACCA_L003_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix IT9_DG2_TGACCA_L003_R1_001/IT9_DG2_TGACCA_L003_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd IT9_DG2_TGACCA_L003_R1_001
++ for bam in '*.bam'
+++ echo IT9_DG2_TGACCA_L003_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=IT9_DG2_TGACCA_L003_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l IT9_DG2_TGACCA_L003_R1_001Aligned -o IT9_DG2_TGACCA_L003_R1_001Aligned.stringtie.gtf IT9_DG2_TGACCA_L003_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=41
++ outfolder=IT9_DG_10_GATCAG_L001_R1_001
++ mkdir IT9_DG_10_GATCAG_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn IT9_DG_10_GATCAG_L001_R1_001.paired.fq.gz IT9_DG_10_GATCAG_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix IT9_DG_10_GATCAG_L001_R1_001/IT9_DG_10_GATCAG_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd IT9_DG_10_GATCAG_L001_R1_001
++ for bam in '*.bam'
+++ echo IT9_DG_10_GATCAG_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=IT9_DG_10_GATCAG_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l IT9_DG_10_GATCAG_L001_R1_001Aligned -o IT9_DG_10_GATCAG_L001_R1_001Aligned.stringtie.gtf IT9_DG_10_GATCAG_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=39
++ outfolder=UG_DG_1_ACAGTG_L001_R1_001
++ mkdir UG_DG_1_ACAGTG_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn UG_DG_1_ACAGTG_L001_R1_001.paired.fq.gz UG_DG_1_ACAGTG_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix UG_DG_1_ACAGTG_L001_R1_001/UG_DG_1_ACAGTG_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd UG_DG_1_ACAGTG_L001_R1_001
++ for bam in '*.bam'
+++ echo UG_DG_1_ACAGTG_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=UG_DG_1_ACAGTG_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l UG_DG_1_ACAGTG_L001_R1_001Aligned -o UG_DG_1_ACAGTG_L001_R1_001Aligned.stringtie.gtf UG_DG_1_ACAGTG_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=39
++ outfolder=UG_DG_2_GCCAAT_L001_R1_001
++ mkdir UG_DG_2_GCCAAT_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn UG_DG_2_GCCAAT_L001_R1_001.paired.fq.gz UG_DG_2_GCCAAT_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix UG_DG_2_GCCAAT_L001_R1_001/UG_DG_2_GCCAAT_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd UG_DG_2_GCCAAT_L001_R1_001
++ for bam in '*.bam'
+++ echo UG_DG_2_GCCAAT_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=UG_DG_2_GCCAAT_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l UG_DG_2_GCCAAT_L001_R1_001Aligned -o UG_DG_2_GCCAAT_L001_R1_001Aligned.stringtie.gtf UG_DG_2_GCCAAT_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ len=39
++ outfolder=UG_DG_3_CTTGTA_L001_R1_001
++ mkdir UG_DG_3_CTTGTA_L001_R1_001
++ STAR --runMode alignReads --runThreadN 16 --genomeDir genome --readFilesCommand gunzip -c --readFilesIn UG_DG_3_CTTGTA_L001_R1_001.paired.fq.gz UG_DG_3_CTTGTA_L001_R2_001.paired.fq.gz --outFilterType BySJout --outFilterMultimapNmax 20 --alignSJoverhangMin 8 --alignSJDBoverhangMin 1 --outFilterMismatchNmax 999 --alignIntronMin 20 --alignIntronMax 10000 --alignMatesGapMax 1000000 --outFileNamePrefix UG_DG_3_CTTGTA_L001_R1_001/UG_DG_3_CTTGTA_L001_R1_001 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outFilterIntronMotifs RemoveNoncanonical --quantMode GeneCounts
++ cd UG_DG_3_CTTGTA_L001_R1_001
++ for bam in '*.bam'
+++ echo UG_DG_3_CTTGTA_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ outname=UG_DG_3_CTTGTA_L001_R1_001Aligned
++ stringtie -p 16 -e -G ../Pst_104E_v12_p_ctg.anno.gff3 -l UG_DG_3_CTTGTA_L001_R1_001Aligned -o UG_DG_3_CTTGTA_L001_R1_001Aligned.stringtie.gtf UG_DG_3_CTTGTA_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd ../
++ (( i=i+1 ))
++ (( i<=18-1 ))
++ rm GS_DG_S12412_ATCACG_L001_R1_001.paired.fq.gz GS_DG_S12412_ATCACG_L001_R2_001.paired.fq.gz GS_DG_S18112_CGATGT_L001_R1_001.paired.fq.gz GS_DG_S18112_CGATGT_L001_R2_001.paired.fq.gz GS_DG_S22312_TTAGGC_L001_R1_001.paired.fq.gz GS_DG_S22312_TTAGGC_L001_R2_001.paired.fq.gz HE_DG_H17412_TGACCA_L001_R1_001.paired.fq.gz HE_DG_H17412_TGACCA_L001_R2_001.paired.fq.gz HE_DG_H1_ACTTGA_L001_R1_001.paired.fq.gz HE_DG_H1_ACTTGA_L001_R2_001.paired.fq.gz HE_DG_H2_GATCAG_L001_R1_001.paired.fq.gz HE_DG_H2_GATCAG_L001_R2_001.paired.fq.gz IT0_DG_4_GTGAAA_L001_R1_001.paired.fq.gz IT0_DG_4_GTGAAA_L001_R2_001.paired.fq.gz IT0_DG_5_ATCACG_L001_R1_001.paired.fq.gz IT0_DG_5_ATCACG_L001_R2_001.paired.fq.gz IT0_DG_6_ACTTGA_L001_R1_001.paired.fq.gz IT0_DG_6_ACTTGA_L001_R2_001.paired.fq.gz IT6_DG_7_TAGCTT_L001_R1_001.paired.fq.gz IT6_DG_7_TAGCTT_L001_R2_001.paired.fq.gz IT6_DG_8_GGCTAC_L001_R1_001.paired.fq.gz IT6_DG_8_GGCTAC_L001_R2_001.paired.fq.gz IT6_DG_9_TTAGGC_L001_R1_001.paired.fq.gz IT6_DG_9_TTAGGC_L001_R2_001.paired.fq.gz IT9_DG1_CGATGT_L003_R1_001.paired.fq.gz IT9_DG1_CGATGT_L003_R2_001.paired.fq.gz IT9_DG2_TGACCA_L003_R1_001.paired.fq.gz IT9_DG2_TGACCA_L003_R2_001.paired.fq.gz IT9_DG_10_GATCAG_L001_R1_001.paired.fq.gz IT9_DG_10_GATCAG_L001_R2_001.paired.fq.gz UG_DG_1_ACAGTG_L001_R1_001.paired.fq.gz UG_DG_1_ACAGTG_L001_R2_001.paired.fq.gz UG_DG_2_GCCAAT_L001_R1_001.paired.fq.gz UG_DG_2_GCCAAT_L001_R2_001.paired.fq.gz UG_DG_3_CTTGTA_L001_R1_001.paired.fq.gz UG_DG_3_CTTGTA_L001_R2_001.paired.fq.gz
++ mkdir stringtie
++ mv GS_DG_S12412_ATCACG_L001_R1_001/GS_DG_S12412_ATCACG_L001_R1_001Aligned.stringtie.gtf GS_DG_S18112_CGATGT_L001_R1_001/GS_DG_S18112_CGATGT_L001_R1_001Aligned.stringtie.gtf GS_DG_S22312_TTAGGC_L001_R1_001/GS_DG_S22312_TTAGGC_L001_R1_001Aligned.stringtie.gtf HE_DG_H17412_TGACCA_L001_R1_001/HE_DG_H17412_TGACCA_L001_R1_001Aligned.stringtie.gtf HE_DG_H1_ACTTGA_L001_R1_001/HE_DG_H1_ACTTGA_L001_R1_001Aligned.stringtie.gtf HE_DG_H2_GATCAG_L001_R1_001/HE_DG_H2_GATCAG_L001_R1_001Aligned.stringtie.gtf IT0_DG_4_GTGAAA_L001_R1_001/IT0_DG_4_GTGAAA_L001_R1_001Aligned.stringtie.gtf IT0_DG_5_ATCACG_L001_R1_001/IT0_DG_5_ATCACG_L001_R1_001Aligned.stringtie.gtf IT0_DG_6_ACTTGA_L001_R1_001/IT0_DG_6_ACTTGA_L001_R1_001Aligned.stringtie.gtf IT6_DG_7_TAGCTT_L001_R1_001/IT6_DG_7_TAGCTT_L001_R1_001Aligned.stringtie.gtf IT6_DG_8_GGCTAC_L001_R1_001/IT6_DG_8_GGCTAC_L001_R1_001Aligned.stringtie.gtf IT6_DG_9_TTAGGC_L001_R1_001/IT6_DG_9_TTAGGC_L001_R1_001Aligned.stringtie.gtf IT9_DG1_CGATGT_L003_R1_001/IT9_DG1_CGATGT_L003_R1_001Aligned.stringtie.gtf IT9_DG2_TGACCA_L003_R1_001/IT9_DG2_TGACCA_L003_R1_001Aligned.stringtie.gtf IT9_DG_10_GATCAG_L001_R1_001/IT9_DG_10_GATCAG_L001_R1_001Aligned.stringtie.gtf UG_DG_1_ACAGTG_L001_R1_001/UG_DG_1_ACAGTG_L001_R1_001Aligned.stringtie.gtf UG_DG_2_GCCAAT_L001_R1_001/UG_DG_2_GCCAAT_L001_R1_001Aligned.stringtie.gtf UG_DG_3_CTTGTA_L001_R1_001/UG_DG_3_CTTGTA_L001_R1_001Aligned.stringtie.gtf stringtie
++ cd stringtie
++ ls GS_DG_S12412_ATCACG_L001_R1_001Aligned.stringtie.gtf GS_DG_S18112_CGATGT_L001_R1_001Aligned.stringtie.gtf GS_DG_S22312_TTAGGC_L001_R1_001Aligned.stringtie.gtf HE_DG_H17412_TGACCA_L001_R1_001Aligned.stringtie.gtf HE_DG_H1_ACTTGA_L001_R1_001Aligned.stringtie.gtf HE_DG_H2_GATCAG_L001_R1_001Aligned.stringtie.gtf IT0_DG_4_GTGAAA_L001_R1_001Aligned.stringtie.gtf IT0_DG_5_ATCACG_L001_R1_001Aligned.stringtie.gtf IT0_DG_6_ACTTGA_L001_R1_001Aligned.stringtie.gtf IT6_DG_7_TAGCTT_L001_R1_001Aligned.stringtie.gtf IT6_DG_8_GGCTAC_L001_R1_001Aligned.stringtie.gtf IT6_DG_9_TTAGGC_L001_R1_001Aligned.stringtie.gtf IT9_DG1_CGATGT_L003_R1_001Aligned.stringtie.gtf IT9_DG2_TGACCA_L003_R1_001Aligned.stringtie.gtf IT9_DG_10_GATCAG_L001_R1_001Aligned.stringtie.gtf UG_DG_1_ACAGTG_L001_R1_001Aligned.stringtie.gtf UG_DG_2_GCCAAT_L001_R1_001Aligned.stringtie.gtf UG_DG_3_CTTGTA_L001_R1_001Aligned.stringtie.gtf
++ stringtie --merge -p 16 -G ../Pst_104E_v12_p_ctg.anno.gff3 -o Pst_104E_v12_p_ctg.stringtie_merged.gtf stringtie_mergelist.txt
++ gffcompare -r ../Pst_104E_v12_p_ctg.anno.gff3 -G -o gffcomparemerged Pst_104E_v12_p_ctg.stringtie_merged.gtf
++ mv ../GS_DG_S12412_ATCACG_L001_R1_001/GS_DG_S12412_ATCACG_L001_R1_001Aligned.sortedByCoord.out.bam ../GS_DG_S18112_CGATGT_L001_R1_001/GS_DG_S18112_CGATGT_L001_R1_001Aligned.sortedByCoord.out.bam ../GS_DG_S22312_TTAGGC_L001_R1_001/GS_DG_S22312_TTAGGC_L001_R1_001Aligned.sortedByCoord.out.bam ../HE_DG_H17412_TGACCA_L001_R1_001/HE_DG_H17412_TGACCA_L001_R1_001Aligned.sortedByCoord.out.bam ../HE_DG_H1_ACTTGA_L001_R1_001/HE_DG_H1_ACTTGA_L001_R1_001Aligned.sortedByCoord.out.bam ../HE_DG_H2_GATCAG_L001_R1_001/HE_DG_H2_GATCAG_L001_R1_001Aligned.sortedByCoord.out.bam ../IT0_DG_4_GTGAAA_L001_R1_001/IT0_DG_4_GTGAAA_L001_R1_001Aligned.sortedByCoord.out.bam ../IT0_DG_5_ATCACG_L001_R1_001/IT0_DG_5_ATCACG_L001_R1_001Aligned.sortedByCoord.out.bam ../IT0_DG_6_ACTTGA_L001_R1_001/IT0_DG_6_ACTTGA_L001_R1_001Aligned.sortedByCoord.out.bam ../IT6_DG_7_TAGCTT_L001_R1_001/IT6_DG_7_TAGCTT_L001_R1_001Aligned.sortedByCoord.out.bam ../IT6_DG_8_GGCTAC_L001_R1_001/IT6_DG_8_GGCTAC_L001_R1_001Aligned.sortedByCoord.out.bam ../IT6_DG_9_TTAGGC_L001_R1_001/IT6_DG_9_TTAGGC_L001_R1_001Aligned.sortedByCoord.out.bam ../IT9_DG1_CGATGT_L003_R1_001/IT9_DG1_CGATGT_L003_R1_001Aligned.sortedByCoord.out.bam ../IT9_DG2_TGACCA_L003_R1_001/IT9_DG2_TGACCA_L003_R1_001Aligned.sortedByCoord.out.bam ../IT9_DG_10_GATCAG_L001_R1_001/IT9_DG_10_GATCAG_L001_R1_001Aligned.sortedByCoord.out.bam ../UG_DG_1_ACAGTG_L001_R1_001/UG_DG_1_ACAGTG_L001_R1_001Aligned.sortedByCoord.out.bam ../UG_DG_2_GCCAAT_L001_R1_001/UG_DG_2_GCCAAT_L001_R1_001Aligned.sortedByCoord.out.bam ../UG_DG_3_CTTGTA_L001_R1_001/UG_DG_3_CTTGTA_L001_R1_001Aligned.sortedByCoord.out.bam .
++ for bam in '*.bam'
+++ echo GS_DG_S12412_ATCACG_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=GS_DG_S12412_ATCACG_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/GS_DG_S12412_ATCACG_L001_R1_001Aligned/GS_DG_S12412_ATCACG_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf GS_DG_S12412_ATCACG_L001_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo GS_DG_S18112_CGATGT_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=GS_DG_S18112_CGATGT_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/GS_DG_S18112_CGATGT_L001_R1_001Aligned/GS_DG_S18112_CGATGT_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf GS_DG_S18112_CGATGT_L001_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo GS_DG_S22312_TTAGGC_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=GS_DG_S22312_TTAGGC_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/GS_DG_S22312_TTAGGC_L001_R1_001Aligned/GS_DG_S22312_TTAGGC_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf GS_DG_S22312_TTAGGC_L001_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo HE_DG_H17412_TGACCA_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=HE_DG_H17412_TGACCA_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/HE_DG_H17412_TGACCA_L001_R1_001Aligned/HE_DG_H17412_TGACCA_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf HE_DG_H17412_TGACCA_L001_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo HE_DG_H1_ACTTGA_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=HE_DG_H1_ACTTGA_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/HE_DG_H1_ACTTGA_L001_R1_001Aligned/HE_DG_H1_ACTTGA_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf HE_DG_H1_ACTTGA_L001_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo HE_DG_H2_GATCAG_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=HE_DG_H2_GATCAG_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/HE_DG_H2_GATCAG_L001_R1_001Aligned/HE_DG_H2_GATCAG_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf HE_DG_H2_GATCAG_L001_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo IT0_DG_4_GTGAAA_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=IT0_DG_4_GTGAAA_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/IT0_DG_4_GTGAAA_L001_R1_001Aligned/IT0_DG_4_GTGAAA_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf IT0_DG_4_GTGAAA_L001_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo IT0_DG_5_ATCACG_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=IT0_DG_5_ATCACG_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/IT0_DG_5_ATCACG_L001_R1_001Aligned/IT0_DG_5_ATCACG_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf IT0_DG_5_ATCACG_L001_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo IT0_DG_6_ACTTGA_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=IT0_DG_6_ACTTGA_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/IT0_DG_6_ACTTGA_L001_R1_001Aligned/IT0_DG_6_ACTTGA_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf IT0_DG_6_ACTTGA_L001_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo IT6_DG_7_TAGCTT_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=IT6_DG_7_TAGCTT_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/IT6_DG_7_TAGCTT_L001_R1_001Aligned/IT6_DG_7_TAGCTT_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf IT6_DG_7_TAGCTT_L001_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo IT6_DG_8_GGCTAC_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=IT6_DG_8_GGCTAC_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/IT6_DG_8_GGCTAC_L001_R1_001Aligned/IT6_DG_8_GGCTAC_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf IT6_DG_8_GGCTAC_L001_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo IT6_DG_9_TTAGGC_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=IT6_DG_9_TTAGGC_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/IT6_DG_9_TTAGGC_L001_R1_001Aligned/IT6_DG_9_TTAGGC_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf IT6_DG_9_TTAGGC_L001_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo IT9_DG1_CGATGT_L003_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=IT9_DG1_CGATGT_L003_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/IT9_DG1_CGATGT_L003_R1_001Aligned/IT9_DG1_CGATGT_L003_R1_001Aligned_Pst_104E_v12_p_ctg.gtf IT9_DG1_CGATGT_L003_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo IT9_DG2_TGACCA_L003_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=IT9_DG2_TGACCA_L003_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/IT9_DG2_TGACCA_L003_R1_001Aligned/IT9_DG2_TGACCA_L003_R1_001Aligned_Pst_104E_v12_p_ctg.gtf IT9_DG2_TGACCA_L003_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo IT9_DG_10_GATCAG_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=IT9_DG_10_GATCAG_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/IT9_DG_10_GATCAG_L001_R1_001Aligned/IT9_DG_10_GATCAG_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf IT9_DG_10_GATCAG_L001_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo UG_DG_1_ACAGTG_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=UG_DG_1_ACAGTG_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/UG_DG_1_ACAGTG_L001_R1_001Aligned/UG_DG_1_ACAGTG_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf UG_DG_1_ACAGTG_L001_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo UG_DG_2_GCCAAT_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=UG_DG_2_GCCAAT_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/UG_DG_2_GCCAAT_L001_R1_001Aligned/UG_DG_2_GCCAAT_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf UG_DG_2_GCCAAT_L001_R1_001Aligned.sortedByCoord.out.bam
++ for bam in '*.bam'
+++ echo UG_DG_3_CTTGTA_L001_R1_001Aligned.sortedByCoord.out.bam
+++ cut -f1 -d .
++ label=UG_DG_3_CTTGTA_L001_R1_001Aligned
++ stringtie -e -B -p 16 -G Pst_104E_v12_p_ctg.stringtie_merged.gtf -o ballgown/UG_DG_3_CTTGTA_L001_R1_001Aligned/UG_DG_3_CTTGTA_L001_R1_001Aligned_Pst_104E_v12_p_ctg.gtf UG_DG_3_CTTGTA_L001_R1_001Aligned.sortedByCoord.out.bam
++ cd /jobfs/local/5085402.r-man2
++ rm -r genome
++ cp -r GS_DG_S12412_ATCACG_L001_R1_001 GS_DG_S18112_CGATGT_L001_R1_001 GS_DG_S22312_TTAGGC_L001_R1_001 HE_DG_H17412_TGACCA_L001_R1_001 HE_DG_H1_ACTTGA_L001_R1_001 HE_DG_H2_GATCAG_L001_R1_001 IT0_DG_4_GTGAAA_L001_R1_001 IT0_DG_5_ATCACG_L001_R1_001 IT0_DG_6_ACTTGA_L001_R1_001 IT6_DG_7_TAGCTT_L001_R1_001 IT6_DG_8_GGCTAC_L001_R1_001 IT6_DG_9_TTAGGC_L001_R1_001 IT9_DG1_CGATGT_L003_R1_001 IT9_DG2_TGACCA_L003_R1_001 IT9_DG_10_GATCAG_L001_R1_001 Pst_104E_v12_p_ctg.anno.gff3 UG_DG_1_ACAGTG_L001_R1_001 UG_DG_2_GCCAAT_L001_R1_001 UG_DG_3_CTTGTA_L001_R1_001 stringtie /short/xf3/bxs800/genome_assembly/analysis/PST79/FALCON/p_assemblies/v9_1/Pst_104E_v12/TSRM/Pst_104E_v12_p_ctg
++ echo 'STAR done'
+STAR done

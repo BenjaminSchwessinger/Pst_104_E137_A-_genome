@@ -44,3 +44,6 @@ Supplemental File 15: Parameters of the REPET Teanno repeat prediction of the Ps
 Supplemental File 16: Parameters of EvidenceModeler to unify gene predictions of the Pst-104E assembly
 
 Supplemental File 17: Parameters of PASA pipeline to map de novo transcripts on the Pst-104E assembly
+
+New addition is the ID_to_locus_tag folder that contains all the Supplemental files that used gene/protein IDs
+converted to using locus_tag. See notebook Post_acceptance_update_on_sup_fig_ID_to_locus_tag.
